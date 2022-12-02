@@ -1,0 +1,120 @@
+body{
+    background-color: antiquewhite;
+    background-image: url("image.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    background: linear-gradient(lightgreen, lightgrey);
+    background-color: red;
+    background-repeat: no-repeat;
+    color: black;
+    text-shadow: 0px 0px 5px yellow, 0px -5px 5px red;
+    box-shadow: 5px 5px 5px white;
+
+}
+p{  
+}
+#p1{
+    font-family: 'Courier New', Courier, monospace;
+}
+.odd{
+    color: red;
+}
+.even{
+    color: blue;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    color: white;
+    margin: 1px solid;
+    text-align: center;
+    font-size: 40px;
+    float: right;
+    background-color: aquamarine;
+}
+.img{
+   float: left;
+}
+#box1{
+    background-color: indigo;
+    width: 300px;
+    height: 300px;
+    border: 1px solid;
+
+    position: relative;
+  left: 250px;
+}
+#box2{
+    background-color: tomato;
+    width: 100px;
+    height: 100px;
+    border: 1px solid;
+
+    position: absolute;
+
+   top: 1255px;
+   left: 350px;
+  
+}
+
+
+.fa-house-user{
+
+}
+.fa-twitter{
+    color: skyblue;
+}
+.fa-youtube{
+    color: red;
+}
+
+#hi{
+    border: 4px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 150px;
+    text-align: center;
+
+    color: aliceblue;
+    background-color: skyblue;
+    transform: translateX(50px);
+    transform: translateY(50px);
+    transform: translate(50px, 50px);
+    transform: scaleX(2) ;
+}
+
+#hi1{
+    border: 4px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 150px;
+    text-align: center;
+    background-color: red;
+    color: black;
+
+    animation: mySlide;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-timing-function: ease;
+    animation-duration: 5s;
+}
+
+@keyframes mySlide {
+    from{margin-left: 100%;}
+    to{margin-left: 0%;}
+}
+
+@keyframes mySlide {
+    100%{transform: rotateZ(360deg)}
+    
+}
+
+@keyframes mySlide {
+    50%{opacity: 0;}
+}
